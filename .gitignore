@@ -26,9 +26,6 @@ __pycache__/
 .env
 
 # Outputs spécifiques au projet
-/tindle_index.faiss
-/tindle_ids.pkl
-/tindle_chunks.pkl
 /tindle_embeddings.parquet
 
 # Dossiers de données à ignorer

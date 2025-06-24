@@ -1,0 +1,11 @@
+streamlit
+openai
+faiss-cpu
+numpy
+tiktoken
+python-dotenv
+pyarrow
+pandas
+lxml
+tqdm
+requests 

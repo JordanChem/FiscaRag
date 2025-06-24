@@ -1,0 +1,39 @@
+# Environnements virtuels
+.venv/
+venv/
+ENV/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+
+# Fichiers de logs et temporaires
+*.log
+*.tmp
+.DS_Store
+
+# Fichiers de données volumineux
+*.pkl
+*.faiss
+*.parquet
+*.zip
+*.csv
+
+# Notebooks Jupyter
+*.ipynb_checkpoints
+
+# Fichiers de configuration/données sensibles
+.env
+
+# Outputs spécifiques au projet
+/tindle_index.faiss
+/tindle_ids.pkl
+/tindle_chunks.pkl
+/tindle_embeddings.parquet
+
+# Dossiers de données à ignorer
+A_AN/
+fiscal_data/
+fiscal_data_process_20232024/
+json_chunk/
+Jurisprudence/ 
